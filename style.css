@@ -18,6 +18,21 @@ body {
   text-align: center;
 }
 
+h1 {
+  display: flex;
+  align-items: center; /* Center align items horizontally */
+  justify-content: center; /* Center align items vertically */
+  height: 100px; /* Adjust as needed */
+}
+
+
+.logo {
+  max-height: 50px; /* Adjust this value to fit your header's height */
+  width: auto; /* Maintains the aspect ratio of the logo */
+  margin-right: 10px; /* Adjust the value as needed */
+}
+
+
 .content a {
   color: white; /* Setting the link color to white */
   text-decoration: underline; /* Keeping the underline */
